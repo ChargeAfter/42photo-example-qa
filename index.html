@@ -19,7 +19,7 @@
                         items: [
                           {
                             name: 'Awesome Product',
-                            price: 700.0,
+                            price: 500.0,
                             sku: 'AWSMPRDCT',
                             quantity: 1,
                             leasable: true
@@ -40,9 +40,9 @@
                         // ],
 
                         // 5.
-                        taxAmount: 100.0,
-                        shippingAmount: 20.0,
-                        totalAmount: 1040.0,
+                        taxAmount: 0.0,
+                        shippingAmount: 00.0,
+                        totalAmount: 500.0,
                         callback: function(token, consumerDetails, error) {
                             if (token) {
                                 var url = 'https://api-qa.ca-dev.co/v1/payment/charges'
